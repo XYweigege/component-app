@@ -13,7 +13,7 @@ module.exports = {
     port: 3000,
   },
   output: {
-    publicPath: "./",
+    publicPath: "auto", // ✅ 关键配置
   },
   module: {
     rules: [
