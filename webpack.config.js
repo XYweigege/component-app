@@ -13,7 +13,7 @@ module.exports = {
     port: 3000,
   },
   output: {
-    publicPath: "/component-app",
+    publicPath: "./",
   },
   module: {
     rules: [
