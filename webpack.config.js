@@ -6,6 +6,7 @@ module.exports = {
   entry: './src/index',
   mode: 'development',
   target: 'web',
+  publicPath: '/component-app',
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
