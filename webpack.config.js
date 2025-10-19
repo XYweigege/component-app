@@ -13,7 +13,7 @@ module.exports = {
     port: 3000,
   },
   output: {
-    publicPath: "/component-app", // ✅ 关键配置  远程应用要让主应用正确加载它的 chunk，publicPath: "auto" 是最安全、通用、免配置的做法。
+    publicPath: "https://xyweigege.github.io/component-app/", // ✅ 关键配置  远程应用要让主应用正确加载它的 chunk，publicPath: "auto" 是最安全、通用、免配置的做法。
   },
   module: {
     rules: [
