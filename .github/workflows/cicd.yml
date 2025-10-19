@@ -2,7 +2,7 @@ name: todoList 自动部署
 on: # 触发条件
   push: # 当有代码推送到master时候
     branches:
-      - master
+      - main
 jobs:  # 定义工作
   deploy: # 工作名称
     runs-on: ubuntu-latest  #使用最新的ubuntu系统作为运行环境
